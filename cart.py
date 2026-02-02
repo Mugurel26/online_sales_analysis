@@ -11,6 +11,6 @@ class Cart:
             total += product.price
         return total
     
-    def shw_cart(self):
+    def show_cart(self):
         for product in self.cart_items:
             print(product.name, "-", product.price)
