@@ -7,7 +7,7 @@ class Cart:
         
     def total_price(self):
         total = 0
-        for product in self.cart.items:
+        for product in self.cart_items:
             total += product.price
         return total
     
